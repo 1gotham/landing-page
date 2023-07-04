@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #1F2937;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header h1 {
+    color: white;
+}
+
+header a {
+    color:rgb(224, 224, 224);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    background-color: #1F2937;
+    width: 100%;
+    height: 500px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+.text {
+    width: 500px;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.text p {
+    color:rgb(224, 224, 224);
+    margin: 10px 0;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 30px;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.img-placeholder {
+    background-color: gray;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content h1 {
+    font-size: 35px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 250px;
+}
+
+.container {
+    height: auto;
+    width: 150px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid #4488f5;
+}
+
+.container p {
+    margin: 10px 0;
+    color:rgb(131, 131, 131);
+}
+
+.quote-container {
+    height: 400px;
+    background-color: rgb(231, 231, 231);
+    padding: 100px 500px;
+}
+
+.quote-container h2 {
+    margin: 5px;
+    text-align: end;
+}
+
+.quote { 
+    font-style: italic;
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+.signup-container {
+    width: 80%;
+    margin: 90px auto;
+    background-color: #4488f5;
+    border-radius: 7px;
+    height: auto;
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.signup-text {
+    text-align: left;
+}
+
+.signup-btn {
+    background-color: #4488f5;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
